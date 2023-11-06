@@ -1,0 +1,96 @@
+.searchindexnavbar {
+  background-color: #fff !important;
+}
+.searchindex-accordion-header button {
+  background-color: #f9bf45 !important;
+  font-weight: 700;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+}
+
+.accordion-button {
+  color: white;
+}
+
+#max-price-input,
+#min-price-input {
+  color: #e98b2a;
+  border-color: #e98b2a;
+  border-width: 2px;
+}
+
+input:focus {
+  outline-color: #e98b2a;
+}
+
+#price {
+  background-color: #f9bf45;
+}
+
+.filter {
+  color: #e98b2a;
+  border-color: #e98b2a !important;
+}
+
+.titlecolor {
+  color: #e98b2a;
+}
+
+.time {
+  color: white;
+  background-color: #e98b2a;
+}
+
+#cardBox {
+  background-color: #f9bf45;
+}
+
+.img-style {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+#searchbody {
+  padding-top: 6.5rem;
+}
+
+.searchindexbtn {
+  color: #e98b2a;
+  background-color: #fff;
+  border-color: #e98b2a;
+  border-width: 2px;
+}
+
+.searchindexbtn:hover,
+.searchindexbtn:focus,
+.searchindexbtn.active {
+  color: #fff;
+  background-color: #f9bf45;
+  border-color: #e98b2a;
+  border-width: 2px;
+}
+
+.searchindexbtn:disabled {
+  color: #e98b2a;
+  background-color: #fff;
+  border-color: #e98b2a;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.accordion-item {
+  border-color: #e98b2a;
+  border-width: 2px;
+}
+
+.pointleft {
+  color: #dc3545;
+}

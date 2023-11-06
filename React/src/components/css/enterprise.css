@@ -1,0 +1,46 @@
+.majorColor {
+  background-color: #e98b2a;
+}
+
+.secColor {
+  background-color: #f9bf45;
+}
+
+#body {
+  padding-top: 6.0rem;
+  /* padding-top: 6.5rem; */
+}
+
+.logo {
+  width: 250px;
+  margin: auto;
+}
+
+.container-95 {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 95%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.letter-spacing30 {
+  letter-spacing: 30px;
+}
+
+#btncolor {
+  color: gray;
+  font-weight: 700;
+}
+
+#btncolor:hover {
+  border-color: #f9bf45;
+  background-color: #f9bf45;
+  color: black !important;
+}
+
+#btncolor:hover #linkcolor{
+  color: black !important;
+}

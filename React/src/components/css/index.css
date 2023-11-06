@@ -1,0 +1,322 @@
+/* 
+.search-box {
+    display: block;
+    width: 100%;
+    padding: 15px 30px;
+    margin-bottom: 35px;
+    transition: all 0.4s ease-in;
+    border-radius: 0 16px 0 16px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.card {
+    text-decoration: none;
+    color: inherit;
+    height: 380px;
+    width: 380px;
+}
+*/
+
+.navbar {
+    background: transparent;
+    transition: 300ms;
+}
+
+.lgiBtn:hover, .rgsBtn:hover {
+    background-color: #ffc800;
+}
+
+.schBtn:hover {
+    background-color: #ffc800;
+}
+
+.searchBarTp.form-control:focus {
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+.CSpic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    bottom: 50px;
+    right: 45px;
+    cursor: pointer;
+    vertical-align: middle;
+    position: fixed;
+    z-index: 1;
+}
+
+.CSpic:hover {
+    background-color: #ffc800;
+}
+
+.BTTpic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 110px;
+    right: 45px;
+    cursor: pointer;
+    vertical-align: middle;
+    position: fixed;
+    z-index: 1;
+}
+
+.BTTpic:hover {
+    background-color: #ffc800;
+}
+
+.chat-widget {
+    position: fixed;
+    bottom: 40px;
+    right: 110px;
+    width: 330px;
+    height: 400px;
+    background-color: #cbcbcb91;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.chat-header {
+    background-color: #e98b2a;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.chat-header h4 {
+    margin: 0;
+}
+
+.chat-history {
+    height: 345px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.chat-input input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chat-input .send-button {
+    background-color: #e98b2a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.accordion-header button {
+    background-color: #f9bf45 !important;
+    font-weight: 700;
+}
+
+.texts {
+    text-align: center;
+    line-height: 100px;
+}
+
+.card > .row .col-md-8 .card-text {
+    height: 100px;
+    overflow: hidden;
+}
+
+
+.letter-spacing10 {
+    letter-spacing: 10px;
+}
+
+.majorColor {
+    background-color: #e98b2a;
+}
+
+.DWcolor {
+    color: #ffc800;
+    -webkit-text-stroke: 2px #838383;
+    font-family: sans-serif;
+}
+
+.pic:hover img{
+    box-shadow: 0 0 5px 2px;
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+/* .insetSD {
+    box-shadow: inset 3em 0 3em -3em rgb(255, 255, 255),inset -3em 0 3em -3em rgb(255, 255, 255);
+    z-index: 10;
+} */
+
+.box1{
+    height: 50vh;
+    display: flex;
+}
+
+.box2{
+    height: 60vh;
+    display: flex;
+    
+}
+
+.box3{
+    height: 25vh;
+    display: flex;
+}
+
+
+.stickyTitle{
+    position: sticky;
+    top: 130px;
+}
+
+.sticky1{
+    position: sticky;
+    top: 200px;
+    margin: 50px;
+}
+
+.sticky2{
+    position: sticky;
+    top: 250px;
+    margin: 50px;
+}
+
+.sticky3{
+    position: sticky;
+    top: 300px;
+    margin: 50px;
+}
+
+.boxtxt{
+    height: 40vh;
+    display: flex;
+}
+
+.stickytxt1{
+    position: sticky;
+    top: 220px;
+    margin-left: 140px;
+}
+
+.stickytxt2{
+    position: sticky;
+    top: 270px;
+    margin-left: 190px;
+}
+
+.stickytxt3{
+    position: sticky;
+    top: 320px;
+    margin-left: 240px;
+}
+
+.stickytxt4{
+    position: sticky;
+}
+
+.txt1 {
+    background-color: #ffaa54;
+    padding: 40px;
+}
+
+.txt2 {
+    background-color: #ff962e;
+    padding: 40px;
+}
+
+.txt3 {
+    background-color: #ff8000;
+    padding: 40px;
+}
+
+.bgcTp {
+    background-color: #ffffff91;
+}
+
+.bgtext1::before {
+    content: "News";
+    display: block;
+    position: absolute;
+    /* background-color: #e98b2a; */
+    top: 102.5%;
+    left: 25%; /* 这里是关键，让伪元素移动到元素旁边 */
+    width: 50%;
+    height: 100%;
+    font-size: 130px;
+    /* font-weight: bold; */
+    color: rgba(0, 0, 0, 0.075); /* 半透明的背景颜色 */
+    z-index: -1; /* 让伪元素在元素下面，防止覆盖元素 */
+}
+
+.bgtext2::before {
+    content: "Promotions";
+    display: block;
+    position: absolute;
+    /* background-color: #e98b2a; */
+    bottom: 73px;
+    left: 320px; /* 这里是关键，让伪元素移动到元素旁边 */
+    width: 50%;
+    height: 100%;
+    font-size: 110px;
+    /* font-weight: bold; */
+    color: rgba(0, 0, 0, 0.075); /* 半透明的背景颜色 */
+    z-index: -1; /* 让伪元素在元素下面，防止覆盖元素 */
+}
+
+.bgtext3::before {
+    content: "Recommend";
+    display: block;
+    position: absolute;
+    /* background-color: #e98b2a; */
+    top: 593.5%;
+    left: 27%; /* 这里是关键，让伪元素移动到元素旁边 */
+    width: 50%;
+    height: 100%;
+    font-size: 130px;
+    /* font-weight: bold; */
+    color: rgba(0, 0, 0, 0.075); /* 半透明的背景颜色 */
+    z-index: -1; /* 让伪元素在元素下面，防止覆盖元素 */
+}
+
+.bgtext4::before {
+    content: "More";
+    display: block;
+    position: absolute;
+    /* background-color: #e98b2a; */
+    /* top: 703.9%; */
+    left: 25%; /* 这里是关键，让伪元素移动到元素旁边 */
+    width: 50%;
+    height: 20%;
+    font-size: 130px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.075); /* 半透明的背景颜色 */
+    z-index: 5; /* 让伪元素在元素下面，防止覆盖元素 */
+}
+
+.logBg {
+    background-color: #e7e7e7;
+}

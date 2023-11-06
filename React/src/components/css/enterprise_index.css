@@ -1,0 +1,12 @@
+.orderlist {
+    min-height: 43rem;
+    /* min-height: 50rem; */
+    /* min-height: 60rem; */
+    /* max-height: 75rem; */
+}
+
+.txttotal {
+    color: #E98B2A;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}

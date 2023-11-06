@@ -1,0 +1,22 @@
+.choosew {
+    font-size: 0.85rem;
+}
+
+.bi-plus-circle-fill {
+    color: #E98B2A;
+}
+
+#DesTextarea {
+    height: 200px;
+    line-height: 1.5;
+}
+
+.keyword {
+    font-size: 0.7rem;
+}
+
+/* input.form-controlborder:focus {
+    border: 1px solid #86b7fe;
+    outline: 4px solid #c2dbfe;
+    transition: 0.05s ease-in-out;
+} */
